@@ -16,7 +16,9 @@ export class LoginPage{
 
     }
     clickLogin(){
-        cy.get(this.login_button).click()
+        cy.get(this.login_button).
+        should('contain', 'Login')
+        .click()
 
     }
 
