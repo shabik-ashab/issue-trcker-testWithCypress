@@ -9,7 +9,8 @@ export class ProductsPage{
     alert_box = '.MuiAlert-message'
 
     clickPurchase(){
-        cy.get(this.purchase_button).click()
+        cy.get(this.purchase_button).
+        click()
     }
 
     enterZipcode(zip){

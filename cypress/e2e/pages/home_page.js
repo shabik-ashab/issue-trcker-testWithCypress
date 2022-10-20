@@ -16,7 +16,7 @@ export class HomePage{
     }
 
     homeClick(){
-        cy.get(this.navbar_home).click()
+        cy.get(this.navbar_home).click({multiple: true, force: true})
     }
 
     dashboardClick(){

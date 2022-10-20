@@ -9,7 +9,8 @@ export class Dashboard{
         cy.get(this.nav_rateus).click()
     }
     clickDashboardLogout(){
-        cy.get(this.dashboardLogout_button).click()
+        cy.get(this.dashboardLogout_button).
+        click()
     }
 
 }

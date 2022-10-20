@@ -38,7 +38,7 @@ describe('All Test', ()=> {
         pdPage.validateAlert()
     })
 
-    it.only('dashboard', ()=> {
+    it('dashboard', ()=> {
         homePage.dashboardClick()
         dashboard.clickRateus()
         dashboard.clickDashboardLogout()
